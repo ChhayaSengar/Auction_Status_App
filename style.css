@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.main-heading {
+  background-color: #333;
+  color: #fff;
+  margin: 0rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.myDiv {
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  /* margin: 1rem 0rem; */
+  width: 400px;
+  height: 170px;
+}
+
+/* .myDiv h1 {
+  margin: 0;
+}
+
+.myDiv h3 {
+  margin: 0;
+  margin-top: 0.5rem;
+} */
+
+.flex-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+p {
+  margin: 0.5rem 0rem;
+}
+.chip {
+  background-color: #2fd474;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.yellow {
+  background-color: rgb(248, 218, 23) !important;
+}
+
+.red {
+  background-color: rgb(221, 59, 59);
+}
+
+.blue {
+    background-color: rgb(21, 189, 255);
+  }
+
+#loader {
+  display: none;
+  height: 3rem;
+  width: 3rem;
+  border: 10px solid #000;
+  border-top-color: rgb(115, 115, 255);
+  border-radius: 50%;
+  animation: linear rotate 1s infinite;
+}
+hr{
+    color: rgb(51, 6, 94);
+}
+
+.custom-input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #333;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  display: block;
+  width: 80%;
+  min-width: 400px;
+  font-family: "Inter";
+}
+
+.custom-input:focus {
+  outline: none;
+}
+/* this is use for rotation for animation: linear rotate 1s infinite;
+} */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
