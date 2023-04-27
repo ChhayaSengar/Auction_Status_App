@@ -1,6 +1,6 @@
 # Auction_Status_App
 
-1. Making the card ui as the above.
+1. Making the card.
 
 2. Make a fetch call from js to the given URL making a get request.
 
